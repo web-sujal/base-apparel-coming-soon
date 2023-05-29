@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      letterSpacing: {
+        "most-widest": "0.2em",
+      },
+    },
   },
   plugins: [],
 };
