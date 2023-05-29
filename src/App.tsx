@@ -15,9 +15,9 @@ function App() {
     setIsDesktop(currentSize);
 
     if (currentSize === true) {
-      setHeroImage("/public/images/hero-desktop.jpg");
+      setHeroImage("/images/hero-desktop.jpg");
     } else {
-      setHeroImage("/public/images/hero-mobile.jpg");
+      setHeroImage("/images/hero-mobile.jpg");
     }
   }, []);
 
